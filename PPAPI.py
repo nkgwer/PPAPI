@@ -6,6 +6,7 @@ app = Flask(__name__)
 @app.route("/", methods=['POST'])
 def checkout():
     body = request.json
+    print(body)
     if len(body) == 2 and 'arg1' in body and 'arg2' in body:
         if type(body['arg1']) == str and type(body['arg2']) == str:
             if body['arg1'][0] == 'a' or body['arg1'][0] == 'A':
