@@ -17,9 +17,9 @@ def checkout():
             else:
                 arg2_a = 'a '
 
-            return jsonify({'Error': False, 'PPAP': 'I have ' + arg1_a+body['arg1'] + "!"
-                                                    + ' I have ' + arg2_a + body['arg2'] + "!"
-                                                    + ' oh' + body['arg2'] + body['arg1']})
+            return jsonify({'Error': False, 'PPAP': 'I have ' + arg1_a+body['arg1'] + '!'
+                                                    + ' I have ' + arg2_a + body['arg2'] + '!'
+                                                    + ' oh ' + body['arg2'] + body['arg1']+'!'})
     return jsonify({'Error': True})
 
 
