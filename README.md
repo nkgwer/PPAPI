@@ -3,7 +3,7 @@
 
 ## POST
 
-###example 1
+### example 1
 body
 ```
 {
@@ -18,7 +18,7 @@ response
     "PPAP": "I have an aapen! I have an apple! oh appleaapen!"
 }
 ```
-###example 2
+### example 2
 body
 ```
 {
