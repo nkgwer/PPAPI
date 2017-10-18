@@ -1,6 +1,5 @@
 # PPAPI
-
-
+Implementation of webAPI using Flask
 ## POST
 
 ### example 1
