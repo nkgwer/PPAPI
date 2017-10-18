@@ -9,11 +9,11 @@ def checkout():
     print(body)
     if len(body) == 2 and 'arg1' in body and 'arg2' in body:
         if type(body['arg1']) == str and type(body['arg2']) == str:
-            if body['arg1'][0] == 'a' or body['arg1'][0] == 'A':
+            if body['arg1'][0] in ['a', 'A']:
                 arg1_a = 'an '
             else:
                 arg1_a = 'a '
-            if body['arg2'][0] == 'a' or body['arg2'][0] == 'A':
+            if body['arg2'][0] in ['a', 'A']:
                 arg2_a = 'an '
             else:
                 arg2_a = 'a '
