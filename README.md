@@ -14,7 +14,7 @@ response
 ```
 {
     "Error": false,
-    "PPAP": "I have an aapen! I have an apple! oh appleaapen!"
+    "PPAP": "I have a pen! I have an apple! oh applepen!"
 }
 ```
 ### example 2
